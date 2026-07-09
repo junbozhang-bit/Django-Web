@@ -1,0 +1,5 @@
+### 获取更新列表
+GET http://localhost:8000/api/update_courses/
+
+### 获取单个更新列表
+GET http://localhost:8000/api/update_courses/1/

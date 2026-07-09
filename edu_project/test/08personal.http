@@ -1,0 +1,24 @@
+### 获取个人订阅课程名称列表
+GET http://localhost:8000/api/user_courses_name/
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwaG9uZSI6IjEyMzQ1Njc4OTEwIiwiZXhwIjoxNzczODEyOTk4fQ.sgMuW2oWz9IROy1MTiKcnJtc50qfOGT9Uv_269EppgM
+
+### 获取个人订阅课程列表
+GET http://localhost:8000/api/user_courses_list/
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwaG9uZSI6IjEyMzQ1Njc4OTEwIiwiZXhwIjoxNzczODEyOTk4fQ.sgMuW2oWz9IROy1MTiKcnJtc50qfOGT9Uv_269EppgM
+
+### 获取个人收藏课程列表
+GET http://localhost:8000/api/user_sections_list/
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwaG9uZSI6IjEyMzQ1Njc4OTEwIiwiZXhwIjoxNzczODEyOTk4fQ.sgMuW2oWz9IROy1MTiKcnJtc50qfOGT9Uv_269EppgM
+
+### 用户增加收藏
+POST http://localhost:8000/api/user_add_sections/
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwaG9uZSI6IjEyMzQ1Njc4OTEwIiwiZXhwIjoxNzczODEyOTk4fQ.sgMuW2oWz9IROy1MTiKcnJtc50qfOGT9Uv_269EppgM
+Content-Type: application/json
+
+{
+    "section":71
+}
+
+### 用户获取订单列表
+GET http://localhost:8000/api/user_orders/
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwaG9uZSI6IjEyMzQ1Njc4OTEwIiwiZXhwIjoxNzczOTEwODAwfQ.BiPLmj4Xx1RbN1U3iwtjvbQ5cUQD8GWkGKo3ORy8rxw

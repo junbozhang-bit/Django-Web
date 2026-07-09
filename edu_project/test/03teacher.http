@@ -1,0 +1,2 @@
+### 获取教师列表
+GET http://localhost:8000/api/teachers/

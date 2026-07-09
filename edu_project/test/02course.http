@@ -1,0 +1,21 @@
+### 获取课程分类列表
+# GET http://localhost:8000/api/courses/
+GET http://192.168.146.129:8000/api/courses/
+
+
+### 分页设置
+GET http://localhost:8000/api/courses/?page=2&size=5
+
+### 测试课程阶段信息
+GET http://localhost:8000/api/stages/?course=1
+
+###获取课程章节信息
+GET http://localhost:8000/api/chapters/
+
+###获取课程小节信息
+GET http://localhost:8000/api/sections/
+
+### 获取单个课程阶段
+GET http://localhost:8000/api/stages/1/
+
+

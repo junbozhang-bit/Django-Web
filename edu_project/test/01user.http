@@ -1,0 +1,21 @@
+###测试用户注册功能
+POST http://localhost:8000/api/register/
+Content-Type: application/json
+
+{
+    "phone": "12345678910",
+    "password": "123456"
+}
+
+###用户登录功能
+POST http://localhost:8000/api/login/
+Content-Type: application/json
+
+{
+    "phone": "12345678910",
+    "password": "123456"
+}
+
+###获取用户信息
+GET http://localhost:8000/api/user/1/
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwaG9uZSI6IjEyMzQ1Njc4OTEwIiwiZXhwIjoxNzczNzUzMTIyfQ.W56dCqQWgoXxWXW33VHVNP-G8N-WCRJL5gunIESytk8

@@ -1,0 +1,10 @@
+insert into t_user_section (user_id,section_id,create_time) VALUES(1,1,'2030-01-01');
+insert into t_user_section (user_id,section_id,create_time) VALUES(1,2,'2030-01-02');
+insert into t_user_section (user_id,section_id,create_time) VALUES(1,3,'2030-01-03');
+insert into t_user_section (user_id,section_id,create_time) VALUES(1,4,'2030-01-03');
+insert into t_user_section (user_id,section_id,create_time) VALUES(1,51,'2030-01-04');
+insert into t_user_section (user_id,section_id,create_time) VALUES(2,1,'2030-01-01');
+insert into t_user_section (user_id,section_id,create_time) VALUES(2,2,'2030-01-02');
+insert into t_user_section (user_id,section_id,create_time) VALUES(2,3,'2030-01-03');
+insert into t_user_section (user_id,section_id,create_time) VALUES(2,4,'2030-01-03');
+insert into t_user_section (user_id,section_id,create_time) VALUES(2,51,'2030-01-04');

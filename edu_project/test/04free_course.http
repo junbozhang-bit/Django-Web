@@ -1,0 +1,2 @@
+### 获取限免课程列表
+GET http://localhost:8000/api/free_courses/

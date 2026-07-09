@@ -1,0 +1,30 @@
+### 提交问题
+POST http://localhost:8000/api/user_questions/
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwaG9uZSI6IjEyMzQ1Njc4OTEwIiwiZXhwIjoxNzczODEyOTk4fQ.sgMuW2oWz9IROy1MTiKcnJtc50qfOGT9Uv_269EppgM
+Content-Type: application/json
+
+{
+    "title":"题目1",
+    "content":"内容1",
+    "section":1
+}
+
+### 回答问题
+POST http://localhost:8000/api/user_answers/
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwaG9uZSI6IjEyMzQ1Njc4OTEwIiwiZXhwIjoxNzczODEyOTk4fQ.sgMuW2oWz9IROy1MTiKcnJtc50qfOGT9Uv_269EppgM
+Content-Type: application/json
+
+{
+    "content":"回答内容2",
+    "section":"2",
+    "question":"2"
+}
+
+### 获取问题列表
+GET http://localhost:8000/api/get_questions/
+
+### 获取单个问题列表
+GET http://localhost:8000/api/get_questions/1/
+
+### 根据单个小结获取问题列表
+GET http://localhost:8000/api/question_sections/?section=1

@@ -1,0 +1,5 @@
+### 获取轮播图
+GET http://localhost:8000/api/rotation_charts/
+
+### 获取服务特色列表
+GET http://localhost:8000/api/feature_services/

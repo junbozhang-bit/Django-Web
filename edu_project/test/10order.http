@@ -1,0 +1,8 @@
+### 订阅课程
+POST http://localhost:8000/api/user_pay_courses/
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwaG9uZSI6IjEyMzQ1Njc4OTEwIiwiZXhwIjoxNzczOTEwODAwfQ.BiPLmj4Xx1RbN1U3iwtjvbQ5cUQD8GWkGKo3ORy8rxw
+
+{
+    "class_type":1
+}
